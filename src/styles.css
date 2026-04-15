@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-parchment font-body text-charcoal antialiased;
+  margin: 0;
+  min-width: 320px;
+  background-image:
+    radial-gradient(circle at top left, rgba(156, 107, 63, 0.08), transparent 30%),
+    radial-gradient(circle at bottom right, rgba(90, 67, 48, 0.1), transparent 35%),
+    linear-gradient(180deg, #f8f4ed 0%, #f2eadf 100%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  @apply transition-colors duration-200;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.section-shell {
+  @apply mx-auto w-full max-w-7xl px-6 sm:px-8 lg:px-10;
+}
+
+.eyebrow {
+  @apply text-xs font-semibold uppercase tracking-[0.35em] text-ember;
+}
+
+.section-title {
+  @apply font-display text-3xl leading-tight text-espresso sm:text-4xl lg:text-5xl;
+}
+
+.section-copy {
+  @apply max-w-3xl text-base leading-8 text-bark sm:text-lg;
+}
+
+.panel {
+  @apply rounded-[2rem] border border-white/60 bg-white/70 shadow-glow backdrop-blur;
+}
+
+.hero-overlay {
+  background:
+    linear-gradient(135deg, rgba(26, 20, 17, 0.92), rgba(26, 20, 17, 0.58)),
+    radial-gradient(circle at top right, rgba(217, 199, 168, 0.28), transparent 45%);
+}
