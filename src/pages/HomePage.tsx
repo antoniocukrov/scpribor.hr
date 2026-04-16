@@ -174,12 +174,15 @@ export function HomePage() {
             ].map((service, index) => (
               <div
                 key={service}
-                className="rounded-[1.75rem] border border-bark/10 bg-gradient-to-br from-white to-[#efe3d1] p-6"
+                className="relative overflow-hidden rounded-[1.75rem] border border-bark/10 bg-gradient-to-br from-white to-[#efe3d1] p-6"
               >
-                <span className="text-xs font-semibold uppercase tracking-[0.3em] text-ember">
+                <span
+                  aria-hidden="true"
+                  className="pointer-events-none absolute inset-x-0 bottom-[-0.12em] text-center font-display text-[7rem] leading-none text-ember/12 sm:text-[8.5rem]"
+                >
                   0{index + 1}
                 </span>
-                <h3 className="mt-4 font-display text-2xl text-espresso">
+                <h3 className="relative z-10 mt-16 font-display text-2xl text-espresso">
                   {service}
                 </h3>
               </div>
