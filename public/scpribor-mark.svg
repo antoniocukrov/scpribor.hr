@@ -1,0 +1,15 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="scpriborMarkFill" x1="18" y1="14" x2="98" y2="108" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F3E3C7" />
+      <stop offset="1" stop-color="#DBC3A1" />
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="104" height="104" rx="28" fill="url(#scpriborMarkFill)" />
+  <rect x="17" y="17" width="86" height="86" rx="22" stroke="#5A4330" stroke-opacity="0.28" stroke-width="1.5" />
+  <path d="M24 95C36 82 46 75 56 75C68 75 74 85 85 85C89 85 94 84 100 80" stroke="#9C6B3F" stroke-opacity="0.35" stroke-width="2.5" stroke-linecap="round" />
+  <text x="31" y="73" fill="#1A1411" font-family="Georgia, 'Times New Roman', serif" font-size="56" font-weight="700" letter-spacing="-4">S</text>
+  <text x="57" y="71" fill="#1A1411" font-family="Georgia, 'Times New Roman', serif" font-size="52" font-weight="700" letter-spacing="-3">C</text>
+  <path d="M25 28H44" stroke="#5A4330" stroke-opacity="0.4" stroke-width="2" stroke-linecap="round" />
+  <path d="M76 92H95" stroke="#5A4330" stroke-opacity="0.4" stroke-width="2" stroke-linecap="round" />
+</svg>

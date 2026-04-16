@@ -33,23 +33,23 @@ a {
 }
 
 .section-shell {
-  @apply mx-auto w-full max-w-7xl px-6 sm:px-8 lg:px-10;
+  @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-10;
 }
 
 .eyebrow {
-  @apply text-xs font-semibold uppercase tracking-[0.35em] text-ember;
+  @apply text-[0.68rem] font-semibold uppercase tracking-[0.28em] text-ember sm:text-xs sm:tracking-[0.35em];
 }
 
 .section-title {
-  @apply font-display text-3xl leading-tight text-espresso sm:text-4xl lg:text-5xl;
+  @apply font-display text-[2rem] leading-tight text-espresso sm:text-4xl lg:text-5xl;
 }
 
 .section-copy {
-  @apply max-w-3xl text-base leading-8 text-bark sm:text-lg;
+  @apply max-w-3xl text-[0.98rem] leading-7 text-bark sm:text-lg sm:leading-8;
 }
 
 .panel {
-  @apply rounded-[2rem] border border-white/60 bg-white/70 shadow-glow backdrop-blur;
+  @apply rounded-[1.75rem] border border-white/60 bg-white/70 shadow-glow backdrop-blur sm:rounded-[2rem];
 }
 
 .hero-overlay {
