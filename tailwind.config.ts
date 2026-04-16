@@ -16,8 +16,8 @@ const config: Config = {
         charcoal: "#26211d"
       },
       fontFamily: {
-        display: ["Georgia", "Times New Roman", "serif"],
-        body: ["Trebuchet MS", "Segoe UI", "sans-serif"]
+        display: ['"Cormorant Garamond"', "Georgia", "serif"],
+        body: ['"Manrope"', '"Segoe UI"', "sans-serif"]
       },
       boxShadow: {
         glow: "0 20px 60px rgba(26, 20, 17, 0.18)"

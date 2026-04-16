@@ -15,32 +15,19 @@ export function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 px-3 pb-3 pt-3 sm:px-6 sm:pb-4 sm:pt-4 lg:px-8">
+    <header className="sticky top-0 z-50 pb-3 pt-3 sm:pb-4 sm:pt-4">
       <div className="section-shell">
-        <div className="rounded-[1.6rem] border border-white/70 bg-white/88 px-3 py-3 shadow-glow backdrop-blur sm:rounded-[2rem] sm:px-5 sm:py-4 lg:px-7">
+        <div className="rounded-[1.35rem] border border-white/70 bg-white/88 px-3 py-3 shadow-glow backdrop-blur sm:rounded-[2rem] sm:px-5 sm:py-4 lg:px-7">
           <div className="flex items-center justify-between gap-3">
-            <NavLink
-              to="/"
-              className="flex min-w-0 flex-1 items-center gap-3 pr-2 sm:gap-4"
-            >
-              <LogoMark className="h-11 w-11 shrink-0 sm:h-14 sm:w-14" />
-
-              <div className="min-w-0 lg:hidden">
-                <p className="truncate font-display text-[1.2rem] tracking-[0.12em] text-espresso">
-                  SCPRIBOR
-                </p>
-                <p className="mt-0.5 truncate text-[0.58rem] font-semibold uppercase tracking-[0.22em] text-ember">
-                  Koža • uvoz • izvoz
-                </p>
-              </div>
-
-              <LogoWordmark className="hidden h-10 w-[14rem] shrink-0 lg:block xl:h-12 xl:w-[16.25rem]" />
+            <NavLink to="/" className="flex min-w-0 flex-1 items-center gap-2.5 sm:gap-4">
+              <LogoMark className="h-10 w-10 shrink-0 sm:h-14 sm:w-14" />
+              <LogoWordmark className="h-8 w-[9.75rem] min-w-0 shrink sm:h-10 sm:w-[13rem] lg:h-12 lg:w-[16.25rem]" />
             </NavLink>
 
             <button
               type="button"
               onClick={() => setIsOpen((value) => !value)}
-              className="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-bark/10 bg-parchment/80 text-espresso transition hover:bg-parchment lg:hidden"
+              className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-bark/10 bg-parchment/80 text-espresso transition hover:bg-parchment lg:hidden"
               aria-expanded={isOpen}
               aria-label={isOpen ? "Zatvori navigaciju" : "Otvori navigaciju"}
             >
@@ -101,7 +88,7 @@ export function Header() {
                     end={item.href === "/"}
                     onClick={() => setIsOpen(false)}
                     className={({ isActive }) =>
-                      `rounded-[1rem] px-4 py-3 text-sm font-semibold uppercase tracking-[0.14em] ${
+                      `rounded-[0.95rem] px-4 py-3 text-center text-sm font-semibold uppercase tracking-[0.14em] ${
                         isActive
                           ? "bg-espresso text-sand"
                           : "bg-parchment/65 text-bark hover:bg-bark/5 hover:text-espresso"

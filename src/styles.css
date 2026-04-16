@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -33,23 +35,23 @@ a {
 }
 
 .section-shell {
-  @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-10;
+  @apply mx-auto w-full max-w-7xl px-3 sm:px-6 lg:px-10;
 }
 
 .eyebrow {
-  @apply text-[0.68rem] font-semibold uppercase tracking-[0.28em] text-ember sm:text-xs sm:tracking-[0.35em];
+  @apply text-[0.82rem] font-extrabold uppercase tracking-[0.2em] text-ember sm:text-[0.92rem] sm:tracking-[0.28em];
 }
 
 .section-title {
-  @apply font-display text-[2rem] leading-tight text-espresso sm:text-4xl lg:text-5xl;
+  @apply font-display text-[1.85rem] leading-[1.02] text-espresso sm:text-4xl lg:text-5xl;
 }
 
 .section-copy {
-  @apply max-w-3xl text-[0.98rem] leading-7 text-bark sm:text-lg sm:leading-8;
+  @apply max-w-3xl text-[0.95rem] leading-7 text-bark sm:text-lg sm:leading-8;
 }
 
 .panel {
-  @apply rounded-[1.75rem] border border-white/60 bg-white/70 shadow-glow backdrop-blur sm:rounded-[2rem];
+  @apply rounded-[1.35rem] border border-white/60 bg-white/70 shadow-glow backdrop-blur sm:rounded-[2rem];
 }
 
 .hero-overlay {

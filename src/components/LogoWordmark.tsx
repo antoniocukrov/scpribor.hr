@@ -8,7 +8,7 @@ export function LogoWordmark({
   className = ""
 }: LogoWordmarkProps) {
   const primary = dark ? "#f6f0e6" : "#1a1411";
-  const secondary = dark ? "rgba(217,199,168,0.9)" : "#9c6b3f";
+  const secondary = dark ? "rgba(217,199,168,0.95)" : "#9c6b3f";
   const line = dark ? "rgba(217,199,168,0.35)" : "rgba(90,67,48,0.22)";
 
   return (
@@ -29,7 +29,7 @@ export function LogoWordmark({
         x="8"
         y="46"
         fill={primary}
-        fontFamily="Georgia, 'Times New Roman', serif"
+        fontFamily="'Cormorant Garamond', Georgia, serif"
         fontSize="43"
         fontWeight="700"
         letterSpacing="5.2"
@@ -40,12 +40,12 @@ export function LogoWordmark({
         x="10"
         y="71"
         fill={secondary}
-        fontFamily="'Trebuchet MS', 'Segoe UI', sans-serif"
+        fontFamily="'Manrope', 'Segoe UI', sans-serif"
         fontSize="11.5"
-        fontWeight="700"
-        letterSpacing="5.1"
+        fontWeight="800"
+        letterSpacing="4.8"
       >
-        KOZA • UVOZ • IZVOZ
+        KOŽA • UVOZ • IZVOZ
       </text>
       <path
         d="M262 58h88"
