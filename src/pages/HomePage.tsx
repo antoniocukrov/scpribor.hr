@@ -4,33 +4,33 @@ import { SectionHeading } from "../components/SectionHeading";
 
 const productCategories = [
   {
-    title: "Sve vrste koze",
+    title: "Sve vrste kože",
     description:
-      "Siroka ponuda razlicitih vrsta koze za poslovne, proizvodne i trgovacke potrebe."
+      "Široka ponuda različitih vrsta kože za poslovne, proizvodne i trgovačke potrebe."
   },
   {
     title: "Nabava po zahtjevu",
     description:
-      "Pronalazimo rjesenja prema trazenoj kvaliteti, kolicini, namjeni i trzistu."
+      "Pronalazimo rješenja prema traženoj kvaliteti, količini, namjeni i tržištu."
   },
   {
     title: "Regionalna distribucija",
     description:
-      "Pouzdana suradnja s partnerima u Hrvatskoj, Sloveniji, Italiji, Madjarskoj, Bosni i Hercegovini i Srbiji."
+      "Pouzdana suradnja s partnerima u Hrvatskoj, Sloveniji, Italiji, Mađarskoj, Bosni i Hercegovini i Srbiji."
   }
 ];
 
 const advantages = [
   "Fokus na kvalitetu materijala i profesionalnu suradnju",
-  "Brza organizacija nabave i otpreme koze",
-  "Fleksibilan pristup poslovnim upitima i specificnim zahtjevima",
-  "Regionalna mreza partnera i stabilna distribucija"
+  "Brza organizacija nabave i otpreme kože",
+  "Fleksibilan pristup poslovnim upitima i specifičnim zahtjevima",
+  "Regionalna mreža partnera i stabilna distribucija"
 ];
 
 const industries = [
-  "Proizvodnja obuce",
-  "Torbe i kozna galanterija",
-  "Namjestaj i interijeri",
+  "Proizvodnja obuće",
+  "Torbe i kožna galanterija",
+  "Namještaj i interijeri",
   "Modna i zanatska proizvodnja"
 ];
 
@@ -44,11 +44,11 @@ export function HomePage() {
             <div className="max-w-3xl">
               <p className="eyebrow text-sand">scpribor.hr</p>
               <h1 className="mt-5 font-display text-4xl leading-tight text-white sm:text-5xl lg:text-6xl">
-                Pouzdan partner za uvoz, izvoz i nabavu svih vrsta koze
+                Pouzdan partner za uvoz, izvoz i nabavu svih vrsta kože
               </h1>
               <p className="mt-6 max-w-2xl text-lg leading-8 text-white/80 sm:text-xl">
-                SCPRIBOR pruza profesionalna rjesenja za nabavu, distribuciju i
-                otpremu koze na trzistima Hrvatske i sire regije.
+                SCPRIBOR pruža profesionalna rješenja za nabavu, distribuciju i
+                otpremu kože na tržištima Hrvatske i šire regije.
               </p>
               <div className="mt-8 flex flex-col gap-4 sm:flex-row">
                 <NavLink
@@ -61,7 +61,7 @@ export function HomePage() {
                   to="/kontakt"
                   className="inline-flex items-center justify-center rounded-full border border-white/20 bg-white/5 px-6 py-3 text-sm font-semibold uppercase tracking-[0.2em] text-white hover:bg-white/10"
                 >
-                  Posaljite upit
+                  Pošaljite upit
                 </NavLink>
               </div>
             </div>
@@ -72,7 +72,7 @@ export function HomePage() {
                 <div className="aspect-[4/5] overflow-hidden rounded-[1.5rem]">
                   <RemoteImage
                     src="https://images.unsplash.com/photo-1518544801976-3e159e50e5bb?auto=format&fit=crop&w=1200&q=80"
-                    alt="Tekstura kvalitetne koze"
+                    alt="Tekstura kvalitetne kože"
                     className="h-full w-full object-cover"
                   />
                 </div>
@@ -86,7 +86,7 @@ export function HomePage() {
         <SectionHeading
           eyebrow="Tko smo"
           title="Poslovna suradnja temeljena na kvaliteti, pouzdanosti i stabilnoj nabavi"
-          description="SCPRIBOR se bavi uvozom, izvozom i nabavom svih vrsta koze za razlicite poslovne i proizvodne potrebe. Klijentima osiguravamo profesionalnu uslugu, fleksibilna rjesenja i podrsku u organizaciji isporuke."
+          description="SCPRIBOR se bavi uvozom, izvozom i nabavom svih vrsta kože za različite poslovne i proizvodne potrebe. Klijentima osiguravamo profesionalnu uslugu, fleksibilna rješenja i podršku u organizaciji isporuke."
         />
         <div className="mt-12 grid gap-6 lg:grid-cols-3">
           {productCategories.map((item) => (
@@ -103,8 +103,8 @@ export function HomePage() {
           <div className="panel p-8 sm:p-10">
             <SectionHeading
               eyebrow="Prednosti"
-              title="Zasto partneri biraju SCPRIBOR"
-              description="Gradimo suradnju na jasnoj komunikaciji, profesionalnoj organizaciji nabave i pristupu usmjerenom na dugorocne odnose."
+              title="Zašto partneri biraju SCPRIBOR"
+              description="Gradimo suradnju na jasnoj komunikaciji, profesionalnoj organizaciji nabave i pristupu usmjerenom na dugoročne odnose."
             />
             <div className="mt-8 grid gap-4">
               {advantages.map((item) => (
@@ -123,17 +123,17 @@ export function HomePage() {
               <div className="min-h-[320px]">
                 <RemoteImage
                   src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=1200&q=80"
-                  alt="Detalj obrade koze"
+                  alt="Detalj obrade kože"
                   className="h-full w-full object-cover"
                 />
               </div>
               <div className="p-8 sm:p-10">
-                <p className="eyebrow">Trzista</p>
+                <p className="eyebrow">Tržišta</p>
                 <h2 className="mt-4 font-display text-3xl text-espresso">
                   Regionalna suradnja i pouzdana distribucija
                 </h2>
                 <p className="mt-4 text-base leading-8 text-bark">
-                  Poslujemo s partnerima na trzistima Hrvatske, Madjarske,
+                  Poslujemo s partnerima na tržištima Hrvatske, Mađarske,
                   Slovenije, Italije, Bosne i Hercegovine te Srbije.
                 </p>
                 <div className="mt-8 grid gap-3">
@@ -160,15 +160,15 @@ export function HomePage() {
               Od upita do otpreme, svaki korak je organiziran i jasan
             </h2>
             <p className="mt-5 max-w-2xl text-base leading-8 text-bark">
-              Uz prodaju i nabavu koze, pruzamo podrsku u planiranju isporuke,
-              koordinaciji s partnerima i organizaciji otpreme prema trazenim
+              Uz prodaju i nabavu kože, pružamo podršku u planiranju isporuke,
+              koordinaciji s partnerima i organizaciji otpreme prema traženim
               rokovima.
             </p>
           </div>
           <div className="grid gap-4 sm:grid-cols-2">
             {[
-              "Uvoz koze",
-              "Izvoz koze",
+              "Uvoz kože",
+              "Izvoz kože",
               "Nabava po zahtjevu",
               "Otprema i distribucija"
             ].map((service, index) => (
@@ -197,11 +197,11 @@ export function HomePage() {
             <div>
               <p className="eyebrow text-sand">Kvaliteta</p>
               <h2 className="mt-4 font-display text-3xl sm:text-4xl">
-                Certifikat o kakvoci kao potvrda ozbiljnog poslovanja
+                Certifikat o kakvoći kao potvrda ozbiljnog poslovanja
               </h2>
               <p className="mt-5 max-w-2xl text-base leading-8 text-white/75">
-                SCPRIBOR posjeduje certifikat o kakvoci izdan od Euroinspekt
-                Zagreb, sto dodatno potvrduje fokus na kvalitetu i pouzdanost.
+                SCPRIBOR posjeduje certifikat o kakvoći izdan od Euroinspekt
+                Zagreb, što dodatno potvrđuje fokus na kvalitetu i pouzdanost.
               </p>
             </div>
             <div className="flex flex-col gap-4">
@@ -215,7 +215,7 @@ export function HomePage() {
                 to="/o-nama"
                 className="inline-flex items-center justify-center rounded-full border border-white/15 px-6 py-3 text-sm font-semibold uppercase tracking-[0.2em] text-white hover:bg-white/10"
               >
-                Saznajte vise
+                Saznajte više
               </NavLink>
             </div>
           </div>

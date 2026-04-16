@@ -3,24 +3,24 @@ import { SectionHeading } from "../components/SectionHeading";
 
 const categories = [
   {
-    title: "Prirodna koza",
+    title: "Prirodna koža",
     description:
-      "Materijali za razlicite vrste poslovne i proizvodne primjene, s naglaskom na kvalitetu i pouzdanost."
+      "Materijali za različite vrste poslovne i proizvodne primjene, s naglaskom na kvalitetu i pouzdanost."
   },
   {
-    title: "Obradena koza",
+    title: "Obrađena koža",
     description:
-      "Rjesenja prilagodena trazenim karakteristikama, namjeni i poslovnim zahtjevima partnera."
+      "Rješenja prilagođena traženim karakteristikama, namjeni i poslovnim zahtjevima partnera."
   },
   {
-    title: "Tehnicka i specijalna koza",
+    title: "Tehnička i specijalna koža",
     description:
-      "Odgovarajuca opcija za specificne projekte, narudzbe i proizvodne procese."
+      "Odgovarajuća opcija za specifične projekte, narudžbe i proizvodne procese."
   },
   {
     title: "Nabava prema zahtjevu",
     description:
-      "Ako trazite odredenu vrstu koze, pomazemo u pronalasku odgovarajuceg materijala i organizaciji dobave."
+      "Ako tražite određenu vrstu kože, pomažemo u pronalasku odgovarajućeg materijala i organizaciji dobave."
   }
 ];
 
@@ -30,8 +30,8 @@ export function ProductsPage() {
       <section className="panel px-8 py-12 sm:px-10 lg:px-14">
         <SectionHeading
           eyebrow="Proizvodi"
-          title="Sirok asortiman koze za poslovne, trgovacke i proizvodne potrebe"
-          description="U ponudi imamo razlicite vrste koze za klijente koji traze pouzdanu nabavu, fleksibilnu suradnju i rjesenja prilagodena konkretnoj namjeni."
+          title="Širok asortiman kože za poslovne, trgovačke i proizvodne potrebe"
+          description="U ponudi imamo različite vrste kože za klijente koji traže pouzdanu nabavu, fleksibilnu suradnju i rješenja prilagođena konkretnoj namjeni."
         />
       </section>
 
@@ -56,29 +56,29 @@ export function ProductsPage() {
           <article className="panel p-8 sm:p-10">
             <p className="eyebrow">Fleksibilnost</p>
             <h2 className="mt-4 font-display text-3xl text-espresso sm:text-4xl">
-              Nabava prilagodena trazenoj kvaliteti, kolicini i namjeni
+              Nabava prilagođena traženoj kvaliteti, količini i namjeni
             </h2>
             <p className="mt-5 max-w-2xl text-base leading-8 text-bark">
-              Buduci da poslujemo sa sirokim spektrom vrsta koze, nas pristup je
-              usmjeren na pronalazak odgovarajuceg rjesenja prema zahtjevima
-              klijenta. Time omogucujemo jednostavniji proces nabave i vecu
+              Budući da poslujemo sa širokim spektrom vrsta kože, naš pristup je
+              usmjeren na pronalazak odgovarajućeg rješenja prema zahtjevima
+              klijenta. Time omogućujemo jednostavniji proces nabave i veću
               sigurnost poslovne suradnje.
             </p>
           </article>
           <article className="rounded-[2rem] bg-espresso p-8 text-white shadow-glow sm:p-10">
             <p className="eyebrow text-sand">Upit</p>
             <h2 className="mt-4 font-display text-3xl">
-              Trazite odredenu vrstu koze?
+              Tražite određenu vrstu kože?
             </h2>
             <p className="mt-5 text-base leading-8 text-white/75">
-              Posaljite nam upit i organizirat cemo nabavu prema vasim tehnickim
+              Pošaljite nam upit i organizirat ćemo nabavu prema vašim tehničkim
               i poslovnim potrebama.
             </p>
             <NavLink
               to="/kontakt"
               className="mt-8 inline-flex rounded-full bg-sand px-6 py-3 text-sm font-semibold uppercase tracking-[0.2em] text-espresso hover:bg-[#e7d9bf]"
             >
-              Posaljite upit
+              Pošaljite upit
             </NavLink>
           </article>
         </div>

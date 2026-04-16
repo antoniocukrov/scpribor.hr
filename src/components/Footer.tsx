@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 import { LogoMark } from "./LogoMark";
 
 const links = [
-  { href: "/", label: "Pocetna" },
+  { href: "/", label: "Početna" },
   { href: "/o-nama", label: "O nama" },
   { href: "/proizvodi", label: "Proizvodi" },
   { href: "/usluge", label: "Usluge" },
@@ -23,13 +23,13 @@ export function Footer() {
                     SCPRIBOR
                   </p>
                   <p className="text-xs uppercase tracking-[0.24em] text-sand/80">
-                    uvoz, izvoz i nabava koze
+                    uvoz, izvoz i nabava kože
                   </p>
                 </div>
               </div>
               <p className="mt-5 max-w-md text-base leading-8 text-white/70">
                 SCPRIBOR je pouzdan partner za uvoz, izvoz, nabavu i otpremu svih
-                vrsta koze na domacem i regionalnom trzistu.
+                vrsta kože na domaćem i regionalnom tržištu.
               </p>
             </div>
 
@@ -58,13 +58,13 @@ export function Footer() {
                 <a href="tel:+38598798153" className="block hover:text-sand">
                   +385 98798153
                 </a>
-                <p>Certifikat o kakvoci, Euroinspekt Zagreb</p>
+                <p>Certifikat o kakvoći, Euroinspekt Zagreb</p>
               </div>
             </div>
           </div>
 
           <div className="mt-10 border-t border-white/10 pt-6 text-sm text-white/45">
-            (c) {new Date().getFullYear()} SCPRIBOR. Sva prava pridrzana.
+            (c) {new Date().getFullYear()} SCPRIBOR. Sva prava pridržana.
           </div>
         </div>
       </div>

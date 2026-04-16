@@ -7,7 +7,7 @@ export function ContactPage() {
         <SectionHeading
           eyebrow="Kontakt"
           title="Javite nam se za dostupnost, nabavu, otpremu i poslovnu suradnju"
-          description="Za sve informacije o vrstama koze, mogucnostima suradnje i poslovnim upitima, slobodno nas kontaktirajte putem obrasca ili direktno."
+          description="Za sve informacije o vrstama kože, mogućnostima suradnje i poslovnim upitima, slobodno nas kontaktirajte putem obrasca ili direktno."
         />
       </section>
 
@@ -43,13 +43,13 @@ export function ContactPage() {
                 <p className="text-xs uppercase tracking-[0.28em] text-sand/80">
                   Kvaliteta
                 </p>
-                <p>Certifikat o kakvoci, Euroinspekt Zagreb</p>
+                <p>Certifikat o kakvoći, Euroinspekt Zagreb</p>
               </div>
             </div>
           </article>
 
           <article className="panel p-8 sm:p-10">
-            <h2 className="font-display text-3xl text-espresso">Posaljite upit</h2>
+            <h2 className="font-display text-3xl text-espresso">Pošaljite upit</h2>
             <form
               className="mt-8 grid gap-5"
               action="mailto:info@scpribor.hr"
@@ -62,7 +62,7 @@ export function ContactPage() {
                   <input
                     type="text"
                     name="ime"
-                    placeholder="Vase ime"
+                    placeholder="Vaše ime"
                     className="rounded-2xl border border-bark/10 bg-white px-4 py-3 text-charcoal outline-none transition focus:border-ember"
                   />
                 </label>
@@ -101,7 +101,7 @@ export function ContactPage() {
                 <input
                   type="text"
                   name="predmet"
-                  placeholder="Upit o dostupnosti i nabavi koze"
+                  placeholder="Upit o dostupnosti i nabavi kože"
                   className="rounded-2xl border border-bark/10 bg-white px-4 py-3 text-charcoal outline-none transition focus:border-ember"
                 />
               </label>
@@ -110,7 +110,7 @@ export function ContactPage() {
                 <textarea
                   rows={6}
                   name="poruka"
-                  placeholder="Upisite detalje vaseg upita"
+                  placeholder="Upišite detalje vašeg upita"
                   className="rounded-[1.5rem] border border-bark/10 bg-white px-4 py-3 text-charcoal outline-none transition focus:border-ember"
                 />
               </label>
@@ -118,7 +118,7 @@ export function ContactPage() {
                 type="submit"
                 className="inline-flex w-fit items-center justify-center rounded-full bg-espresso px-6 py-3 text-sm font-semibold uppercase tracking-[0.2em] text-sand hover:bg-charcoal"
               >
-                Posalji upit
+                Pošalji upit
               </button>
             </form>
           </article>

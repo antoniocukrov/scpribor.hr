@@ -2,22 +2,22 @@ import { SectionHeading } from "../components/SectionHeading";
 
 const services = [
   {
-    title: "Uvoz koze",
+    title: "Uvoz kože",
     description:
       "Organizacija nabave kroz suradnju s provjerenim partnerima i fokus na kvalitetu robe."
   },
   {
-    title: "Izvoz koze",
+    title: "Izvoz kože",
     description:
-      "Distribucija i poslovna suradnja s partnerima na trzistima Hrvatske i regije."
+      "Distribucija i poslovna suradnja s partnerima na tržištima Hrvatske i regije."
   },
   {
     title: "Nabava po zahtjevu",
     description:
-      "Pronalazak odgovarajuceg materijala prema trazenoj vrsti, namjeni i kolicini."
+      "Pronalazak odgovarajućeg materijala prema traženoj vrsti, namjeni i količini."
   },
   {
-    title: "Otprema koze",
+    title: "Otprema kože",
     description:
       "Profesionalna organizacija isporuke uz pouzdan i jasan poslovni proces."
   }
@@ -26,7 +26,7 @@ const services = [
 const process = [
   "Upit klijenta",
   "Analiza potreba",
-  "Pronalazak odgovarajuceg rjesenja",
+  "Pronalazak odgovarajućeg rješenja",
   "Ponuda i potvrda suradnje",
   "Organizacija isporuke"
 ];
@@ -37,8 +37,8 @@ export function ServicesPage() {
       <section className="panel px-8 py-12 sm:px-10 lg:px-14">
         <SectionHeading
           eyebrow="Usluge"
-          title="Uz materijal, nudimo i poslovnu podrsku kroz cijeli proces suradnje"
-          description="SCPRIBOR pruza usluge povezane s uvozom, izvozom, nabavom i otpremom koze kako bi klijentima osigurao jednostavniju i sigurniju poslovnu realizaciju."
+          title="Uz materijal, nudimo i poslovnu podršku kroz cijeli proces suradnje"
+          description="SCPRIBOR pruža usluge povezane s uvozom, izvozom, nabavom i otpremom kože kako bi klijentima osigurao jednostavniju i sigurniju poslovnu realizaciju."
         />
       </section>
 
@@ -70,7 +70,7 @@ export function ServicesPage() {
             </h2>
             <p className="mt-5 max-w-2xl text-base leading-8 text-bark">
               Proces je postavljen tako da partneri brzo dobiju informacije,
-              odgovarajucu ponudu i pouzdanu organizaciju otpreme.
+              odgovarajuću ponudu i pouzdanu organizaciju otpreme.
             </p>
           </div>
           <div className="grid gap-4">

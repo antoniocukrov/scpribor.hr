@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 import { LogoMark } from "./LogoMark";
 
 const navigation = [
-  { href: "/", label: "Pocetna" },
+  { href: "/", label: "Početna" },
   { href: "/o-nama", label: "O nama" },
   { href: "/proizvodi", label: "Proizvodi" },
   { href: "/usluge", label: "Usluge" },
@@ -21,7 +21,7 @@ export function Header() {
                 SCPRIBOR
               </p>
               <p className="text-xs uppercase tracking-[0.24em] text-bark">
-                uvoz, izvoz i nabava koze
+                uvoz, izvoz i nabava kože
               </p>
             </div>
           </NavLink>
@@ -49,7 +49,7 @@ export function Header() {
               to="/kontakt"
               className="inline-flex items-center justify-center rounded-full bg-espresso px-5 py-3 text-xs font-semibold uppercase tracking-[0.22em] text-sand hover:bg-charcoal"
             >
-              Posaljite upit
+              Pošaljite upit
             </NavLink>
           </div>
         </div>
