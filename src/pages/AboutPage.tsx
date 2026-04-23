@@ -1,5 +1,6 @@
 import { RemoteImage } from "../components/RemoteImage";
 import { SectionHeading } from "../components/SectionHeading";
+import leatherExport from "../images/leatherExport.webp";
 
 const values = [
   "Kvaliteta materijala i pouzdanost nabave",
@@ -24,9 +25,9 @@ export function AboutPage() {
           </p>
         </div>
         <div className="panel overflow-hidden">
-          <div className="min-h-[280px] sm:min-h-[420px]">
+          <div className="h-[280px] sm:h-[420px]">
             <RemoteImage
-              src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?auto=format&fit=crop&w=1400&q=80"
+              src={leatherExport}
               alt="Uzorci i obrada kože"
               className="h-full w-full object-cover"
             />

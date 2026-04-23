@@ -1,6 +1,8 @@
 import { NavLink } from "react-router-dom";
 import { RemoteImage } from "../components/RemoteImage";
 import { SectionHeading } from "../components/SectionHeading";
+import mixedColor from "../images/mixedColor.webp";
+import mixedRoll from "../images/mixedRoll.webp";
 
 const productCategories = [
   {
@@ -73,7 +75,7 @@ export function HomePage() {
               <div className="relative overflow-hidden rounded-[1.15rem] border border-white/10 bg-white/5 p-2.5 backdrop-blur sm:rounded-[2rem] sm:p-3">
                 <div className="aspect-[5/4] overflow-hidden rounded-[0.95rem] sm:aspect-[4/5] sm:rounded-[1.5rem]">
                   <RemoteImage
-                    src="https://images.unsplash.com/photo-1518544801976-3e159e50e5bb?auto=format&fit=crop&w=1200&q=80"
+                    src={mixedColor}
                     alt="Tekstura kvalitetne kože"
                     className="h-full w-full object-cover"
                   />
@@ -128,7 +130,7 @@ export function HomePage() {
             <div className="grid gap-0 md:grid-cols-2">
               <div className="min-h-[220px] sm:min-h-[320px]">
                 <RemoteImage
-                  src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?auto=format&fit=crop&w=1200&q=80"
+                  src={mixedRoll}
                   alt="Detalj obrade kože"
                   className="h-full w-full object-cover"
                 />
