@@ -50,7 +50,7 @@ export function HomePage() {
               <h1 className="mt-3 font-display text-[2rem] leading-[1] text-white sm:mt-5 sm:text-5xl lg:text-6xl">
                 Pouzdan partner za uvoz, izvoz i nabavu svih vrsta kože
               </h1>
-              <p className="mt-4 max-w-2xl text-[0.92rem] leading-6 text-white/82 sm:mt-6 sm:text-xl sm:leading-8">
+              <p className="mt-4 max-w-2xl text-[0.92rem] leading-6 text-white sm:mt-6 sm:text-xl sm:leading-8">
                 SCPRIBOR pruža profesionalna rješenja za nabavu, distribuciju i
                 otpremu kože na tržištima Hrvatske i šire regije.
               </p>
