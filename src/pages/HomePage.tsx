@@ -72,7 +72,7 @@ export function HomePage() {
 
             <div className="relative mx-auto w-full max-w-none sm:max-w-md">
               <div className="absolute -left-3 top-6 h-20 w-20 rounded-full border border-sand/30 bg-sand/10 blur-xl sm:-left-6 sm:top-10 sm:h-28 sm:w-28" />
-              <div className="relative overflow-hidden rounded-[1.15rem] border border-white/10 bg-white/5 p-2.5 backdrop-blur sm:rounded-[2rem] sm:p-3">
+              <div className="relative overflow-hidden rounded-[1.15rem] border border-white/10 bg-white/5 backdrop-blur sm:rounded-[2rem] sm:p-3">
                 <div className="aspect-[5/4] overflow-hidden rounded-[0.95rem] sm:aspect-[4/5] sm:rounded-[1.5rem]">
                   <RemoteImage
                     src={mixedColor}
